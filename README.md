@@ -31,7 +31,7 @@ a2enmod proxy
 a2enmod proxy_http 
 a2enmod ssl
 ```
-### c) Redirect http to http
+### c) Redirect http to https
 - edit /etc/apache2/site-available/<youDomain.com>.conf
 ```
 <VirtualHost *:80>
